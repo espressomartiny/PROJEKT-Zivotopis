@@ -1,0 +1,165 @@
+body {
+    color: hsl(317, 10%, 86%);
+    background-color: rgb(11, 42, 88);
+    line-height: 1.5;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: justify;
+    margin: 0%;
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+    color: hsl(320, 30%, 76%);
+    
+}
+
+h2 {
+    margin-top: 0%;
+    
+}
+h1 {
+    margin: 0%;
+    text-align: center;
+    text-shadow: 0 3px 10px rgb(11, 42, 88);
+}
+
+.hlavicka {
+    background-image: url(fotky/nif.jpg);
+    padding: 150px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+    ;
+}
+/* původní menu
+.menu {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    color: hsl(317, 10%, 86%);
+   
+}
+.menu a {
+    color: hsl(317, 10%, 86%);
+    text-decoration: none;
+    padding: 20px 30px;
+    display: inline-block;
+}
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: hsl(320, 30%, 76%);
+    color: rgb(11, 42, 88);
+    }
+ */
+.subhead a {
+    text-decoration: none;
+    color: hsl(317, 10%, 86%);
+}
+.subhead a:hover,
+.subhead a:focus,
+.subhead a:active {
+    background-color: hsl(320, 30%, 76%);
+    color: rgb(11, 42, 88);
+
+
+    }
+
+.subhead {
+    font-size: large;
+    text-align: right;
+    padding: 100px 15% 50px 15%;   
+    overflow: auto   
+}
+
+.foto-profil {
+    border-radius: 50%;
+    border: 5px solid hsl(320, 30%, 76%);
+    width: 15%;
+    margin: 20px 300px 50px 50px;
+    float: right;
+}
+
+.dark-p,
+.dark-h {
+    color: rgb(11, 42, 88);
+}
+
+section {
+    padding: 50px 15%;    
+}    
+
+.kod { 
+    background-color: hsl(317, 10%, 86%);
+}
+.kod img {
+    width: 70%;
+    border: 2px solid rgb(11, 42, 88);
+    border-radius: 20px; 
+}
+
+.game img {
+    width: 32%;
+    border: 2px solid ivory;
+    border-radius: 20px; }
+    
+/* vzdělání původně rozdělané jako tabulka 
+border-bottom: 1px solid ivory;
+
+}
+
+
+.educ {
+    border-spacing: 0;
+   
+
+}
+.educ td {
+border-bottom: 1px solid ivory;
+
+}
+
+
+.obor-1,
+.rok-1 {
+    border-top: 1px solid ivory;
+
+}
+
+th,
+td {
+    padding: 10px 0px;
+}
+
+th {color: hsl(320, 30%, 76%);;}
+.obor {
+        display: none;
+}
+ */
+
+.kontakt { 
+    background-color: hsl(317, 10%, 86%);
+}
+    .kontakt a {
+        text-decoration: none;
+        color: hsl(295, 75%, 28%);
+    }
+    .kontakt a:hover,
+    .kontakt a:focus,
+    .kontakt a:active {
+        background-color: hsl(320, 30%, 76%);
+        color: rgb(11, 42, 88);
+    }
+
+.paticka {
+    padding: 20px 15%;
+    text-align: center;;
+
+}
